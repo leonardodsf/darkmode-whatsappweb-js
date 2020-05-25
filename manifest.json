@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "DarkModeWhats",
+  "version": "0.1",
+  "icons": {
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
